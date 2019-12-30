@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/font-awesome.min.css">
+    <title>Trường Đại Học Thủy Lợi</title>
+    <link rel="stylesheet" href=vendor/bootstrap.min.css>
+    <script src="vendor/jquery-3.3.1.slim.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="shortcut icon" href="DHTL.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+<header>
+<div class="top-header">
+    <span class="top-header_login"> <a href="dangnhap.html">ĐĂNG NHẬP</a>
+      <a href="dangki.html">ĐĂNG KÝ</a>
+    </span>
+    <div class="top-header__right">
+        <ul class="top-header__items">
+            <li class="top-header__item"><a href="quanlykhoa.html">Quản Lý Khoa</a></li>
+            <li class="top-header__item"><a href="quanlylop.html">Quản Lý Lớp</a></li>
+            <li class="top-header__item"><a href="quanlymon.html">Quản Lý Môn Học</a></li>
+            <li class="top-header__item"><a href="quanlysinhvien.html">Quản Lý Sinh Viên</a></li>
+            <li class="top-header__item"><a href="quanlydiem.html">Quản Lý Điểm</a></li>   
+        </ul>
+    </div>
+</div>
+<div class="main-header">
+    <div class="main-header__image">
+        <a href="DHTL.html"><img src=" public/img/logo.png" alt=""></a>
+    </div>
+    <div class="main-header__right">
+        <ul class="main-header__items">
+            <li class="main-header__item"><i ></i> Tin</li>
+            <li class="main-header__item"><i ></i> Thông Báo</li>
+            <li class="main-header__item"><i ></i> Đào Tạo</li>
+            <li class="main-header__item"><i></i> Sự Kiện</li>
+        </ul>
+    </div>
+</div>
+</header>
+<main>
+<div class="title-module">Quản Lý Lớp</div>
+<div class="container-1">
+    <div class="container-2">
+        <div class="container-3" id="clear">
+            <table class="t1">
+                <tr align=center>
+                    <td align="center">
+                        <div class="mainbody-1" id="clear">                
+                            <div class="filter" style="margin-left: 470px;">
+                                <div class="label">Mã Lớp</div>
+                                <div class="value"><input type="text" name="start_time"></div>                                                          
+                            </div>
+                    </td>
+                    <td>
+                        <div class="filter" style="margin-left: 10px;">
+                            <div class="label" >Tên Lớp</div>
+                            <div class="value"><input type="text" name="end_time"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="filter" style="margin-left: 10px;">
+                            <div class="label" >Khoa</div>
+                            
+                          <div class="input-group">
+                         <div class="input-group-append">
+                       <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mã Khoa</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">CNTT</a>
+                              <a class="dropdown-item" href="#">KT</a>
+                      </div>
+                    </div>
+                       </div>
+                        </div>
+                    </td>
+                    <td>
+                            <div class="search" style=" margin-left: 10px; margin-top: 95.5px;"><input type="button" value="Nhập mới" name="search"></div>
+                    </td>
+                </tr>
+                <table border="1" style="margin-left: 400px;margin-top: 50px;text-align: center;">
+                    <tr >
+                        <td style="height:30px; width: 250px;">Mã Lớp</td>
+                        <td style="height:30px; width: 250px;">Tên Lớp</td>
+                        <td style="height:30px; width: 250px;">Mã Khoa</td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="text" style="width: 100%;"></td>
+                    </tr>
+                    
+                </table>
+                <table style="margin-left: 470px;margin-top: 20px;">
+                    <tr>
+                        <td style="width: 60px; " > <input type="button" value="Thêm" style="background-color:#24A9DD; color:red ;" > </td>
+                        <td style="width: 50px;"> <input type="button" value="Sửa" style="background-color:#24A9DD; color:red ;"></td>
+                        <td style="width: 50px;"> <input type="button" value="Xóa" style="background-color:#24A9DD; color:red ;"></td>
+                        <td> <nav class="navbar navbar-light bg-light">
+                            <form class="form-inline">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+                              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                            </form>
+                          </nav>
+                        </td>    
+                    </tr>
+                </table>
+               </table> 
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="page-footer">
+    <div class="wrapper">
+        <div class="footer-col">
+            <h3>TRƯỜNG ĐẠI HỌC THỦY LỢI</h3>
+            <ul>
+                <li>Địa chỉ : 175 TÂY SƠN,</li>
+                <li>ĐỐNG ĐA, HÀ NỘI.</li>
+                <li>Điện thoại: (024) 3852 2201 -</li>
+                <li>Fax: (024) 3563 3351</li>
+                <li>Email: phonghcth@tlu.edu.vn</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>TRƯỜNG ĐẠI HỌC THỦY LỢI - CƠ SỞ 2</h3>
+            <ul>
+                <li>Địa chỉ : Số 2 - Đường Trường </li>
+                <li>Sa - P.17 - Q.Bình Thạnh -</li>
+                <li>Tp.Hồ Chí MinhForum</li>
+                <li>Điện thoại: (84)028.38 400 532</li>
+                <li>- Fax: (84)028.38 400542</li>
+                <li>Email: cs2@tlu.edu.vn</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>TRƯỜNG ĐẠI HỌC THỦY LỢI - CƠ SỞ 2</h3>
+            <ul>
+                <li>Phường An Thạnh - TX Thuận</li>
+                <li>An - Tỉnh Bình Dương</li>
+                <li>Điện thoại: (84).650.3748 620</li>
+                <li>Fax:(84).650.3833 489</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>VIỆN ĐÀO TẠO VÀ KHOA HỌC ỨNG DỤNG MIỀN TRUNG</h3>
+            <ul>
+                <li>Địa chỉ: Số 115 Trần Phú,</li>
+                <li>Thành phố Phan Rang, Tỉnh</li>
+                <li>Ninh Thuận</li>
+                <li>Điện thoại: 02593.823 027,</li>
+                <li>02593.823 028   </li>
+                <li>Email: trungtamdh2@tlu.edu.vn</li>
+            </ul>
+        </div>  
+        <div class="footer-ic">
+            <h3> Trường Đại học Thuỷ Lợi</h3>
+                  <div class="col-md-6 text-rigth">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+          </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
